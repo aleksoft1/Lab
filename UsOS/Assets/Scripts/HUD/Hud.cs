@@ -14,6 +14,6 @@ public class Hud : MonoBehaviour
 
     public void UpdateScoreLabel()
     {
-        //this.score.text = "Laser hits: " + GameData.hitCounter;
+        this.score.text = "Laser hits: " + GameData.hitCounter;
     }
 }

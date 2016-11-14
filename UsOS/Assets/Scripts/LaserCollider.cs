@@ -2,11 +2,13 @@
 
 class LaserCollider : MonoBehaviour
 {
+
+
     public void OnTriggerEnter2D(Collider2D collider)
     {
         if (collider.tag == "Korey")
         {
-            //GameData.hitCounter++;
+            GameData.hitCounter++;
             Hud.instance.UpdateScoreLabel();
         }
     }
